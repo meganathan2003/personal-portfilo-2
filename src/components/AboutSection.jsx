@@ -16,9 +16,9 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              In web development, I specialize
+              in creating responsive, accessible, and performant full stack
+              applications using modern technologies Like React, Next.js, and Tailwind.
             </p>
 
             <p className="text-muted-foreground">
@@ -35,7 +35,9 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="/CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
@@ -64,10 +66,10 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">Full Stack Development</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Building full stack applications with React, Next.js, and
+                    Node.js with seamless integration and experience.
                   </p>
                 </div>
               </div>

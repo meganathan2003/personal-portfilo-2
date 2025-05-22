@@ -5,30 +5,30 @@ const projects = [
     id: 1,
     title: "SaaS Landing Page",
     description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
+    image: "/projects/project-1-image.png",
     tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://capable-unicorn-b52efc.netlify.app/",
+    githubUrl: "https://github.com/fullstack-projectz/Event-Management-frontend",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "CodeCraft Code-editor app",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
+      "Interactive Code-editor app you can use to write code in different languages.",
+    image: "/projects/project-2-image.png",
     tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://codecraft-jono-git-main-meganathan-projects.vercel.app/",
+    githubUrl: "https://codecraft-jono.vercel.app/",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Tiktik app for tracking the projects and todos and kanban board",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
+      "Tiktik app for tracking the projects and todos and kanban board",
+    image: "/projects/project-3-image.png",
     tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://tiktik-trackerz.netlify.app",
+    githubUrl: "https://github.com/Team-Projectsz/TIK-TIK-App",
   },
 ];
 
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/meganathan2003?tab=repositories"
           >
             Check My Github <ArrowRight size={16} />
           </a>
